@@ -291,5 +291,3 @@ if submitted:
 
     st.markdown("---")
     st.markdown("<p style='text-align: center; color: grey;'>Iglesia Cristiana 'Remanente Vencedor' | Herramienta de Edificación</p>", unsafe_allow_html=True)
-
-```
