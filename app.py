@@ -20,6 +20,7 @@ col1, col2 = st.columns([1, 4])
 
 with col1:
     try:
+        # Intenta cargar la imagen. Asegúrate que en GitHub se llame image_0.png
         logo = Image.open("image_0.png")
         st.image(logo, use_column_width='always')
     except FileNotFoundError:
@@ -64,8 +65,7 @@ Lee cada afirmación y evalúala con sinceridad según la frecuencia con la que 
 st.markdown("---")
 
 # --- BASE DE DATOS DE PREGUNTAS ---
-# Nota: Los números al inicio del texto se ignorarán al mostrarse, 
-# se usan solo para referencia interna.
+# (Aquí sigue el resto de tu código, no necesitas cambiar lo de abajo)
 preguntas_db = {
     "El que Preside (Liderazgo)": [
         "1. ¿Te entregas con mucha pasión y sacrificio para lograr que una meta se cumpla?",
